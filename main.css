@@ -42,15 +42,13 @@
   @keyframes color-shift-top{
 
         0%, 100%{
-            fill:rgb(44, 212, 201);
+            fill:rgb(212, 44, 44);
             }
             50%{
-                fill:rgb(13, 190, 107);
+                fill:rgb(0, 0, 0);
             }
         }
-        #top-circle{
-            fill:yellow;
-}
+
 
   /* Animation for middle circle */
   #middle-circle{
