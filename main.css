@@ -1,19 +1,9 @@
   /* Background image in motion, imported as an svg */
   body{
-    background-color:lightyellow ;
+    background-color:rgb(135, 247, 255) ;
   }
-
   .motion-wrapper {
-    background-color: lightyellow;
-    display: grid;
-    /* height: 100%; */
-    place-items: center;
-    position: relative;
-    animation: colorShift 7s infinite;
-  }
-
-  .motion-wrapper {
-    background-color: lightyellow;
+    background-color: rgb(194, 250, 255);
     display: grid;
     /* height: 100%; */
     place-items: center;
@@ -26,7 +16,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: tan;
+    color: rgb(64, 150, 158);
     font-size: 50px;
     width: 80%;
     }
@@ -34,7 +24,7 @@
     max-width: 400px; 
     }
   /* Animation for top circle */
-  #top-circle{
+  #k-letter{
     animation: color-shift-top 7s infinite;
 }
 
@@ -45,13 +35,13 @@
             fill:rgb(212, 44, 44);
             }
             50%{
-                fill:rgb(0, 0, 0);
+                fill:rgb(255, 141, 215);
             }
         }
 
 
   /* Animation for middle circle */
-  #middle-circle{
+  #star{
     animation: color-shift-middle 7s infinite;
 }
 
@@ -59,25 +49,25 @@
   @keyframes color-shift-middle{
 
         0%, 100%{
-            fill:rgb(212, 44, 145);
+            fill:rgb(44, 80, 212);
             }
             50%{
-                fill:rgb(22, 13, 190);
+                fill:rgb(175, 13, 190);
             }
         }
     
   /* Animation for bottom circle */
-  #bottom-circle{
+  #divide{
     animation: color-shift-bottom 7s infinite;
 }
 
   @keyframes color-shift-bottom{
 
         0%, 100%{
-            fill:red
+            fill:rgb(255, 180, 109)
             }
             50%{
-                fill:rgb(234, 242, 6);
+                fill:rgb(249, 255, 60);
             }
         }
         #middle-circle{
